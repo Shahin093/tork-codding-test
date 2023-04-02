@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tork Coding test</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <div class="stepOne">
+
+
+        <!-- progressing  -->
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+
+            <div class="progress-steps active" data-title="account"></div>
+            <div class="progress-steps" data-title="social profiles"></div>
+            <div class="progress-steps" data-title="personal information"></div>
+        </div>
+
+        <!-- steps  -->
+
+
+
+
+        <!-- first step  -->
+        <div class='stepOne form-step'>
+
+            <div class="mainform">
+                <form class='' action="">
+                    <h2 class='steponeText'>Choose Varification Option</h2>
+                    <!-- <hr class='hrstyle' /> -->
+
+
+                    <hr class="hrstyle" />
+                    <div>
+                        <label class='slectTitle' htmlFor="">Select Region</label> <br />
+                        <select class='opselect' name="cars" id="cars">
+                            <option class='optionc' value="USA">USA</option>
+                            <option class='optionc' value="saab">Saab</option>
+                            <option class='optionc' value="mercedes">Mercedes</option>
+                            <option class='optionc' value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <h5 class='selectIdentity'>Select Identity Type</h5>
+                    <input class='rediobutton' type="radio" id="age1" name="age" value="30" />
+
+                    <label class='redioTitle' for="age1">National ID</label><br />
+
+                    <input class='rediobutton' type="radio" id="age2" name="age" value="60" />
+
+                    <label class='redioTitle' for="age2">Passport</label><br />
+
+                    <input class='rediobutton' type="radio" id="age3" name="age" value="100" />
+
+                    <label class='redioTitle' for="age3">Driving License</label><br /><br />
+
+                    <input class='btnStyle btn-nextBtn nextBtn' value='Next' type="button" />
+                </form>
+            </div>
+
+
+        </div>
+
+        <!-- second step  -->
+        <div class="stepOne form-step">
+            <h2 class='steptwoText'>Upload Media</h2>
+            <hr class='hrstyle' />
+            <div class='disflex'>
+                <div class='img1'>
+                    <img class='imgmag1' src="https://i.ibb.co/yfSP5Fd/download.jpg" alt="download" border="0" />
+                </div>
+                <div class='img2'>
+                    <img class='imgmag2' src="https://i.ibb.co/yfSP5Fd/download.jpg" alt="download" border="0" />
+                </div>
+                <div class='img3'>
+                    <img class='imgmag3' src="https://i.ibb.co/yfSP5Fd/download.jpg" alt="download" border="0" />
+                </div>
+            </div>
+            <div>
+
+            </div>
+
+            <form action="" class='allfrom'>
+                <label class='slectTitlenid'>Enter NID Number</label>
+                <select class='opselectnid' name="cars" id="cars">
+                    <option class='optionc' value="eg. 480 555-0103">eg. 480 555-0103</option>
+                    <option class='optionc' value="saab">Saab</option>
+                    <option class='optionc' value="opel">Opel</option>
+                    <option class='optionc' value="audi">Audi</option>
+                </select>
+                <br /><br />
+                <div class='btnground'>
+                    <input class='dis' disabled type="Next" value="Next" />
+                    <input class='ana btn-nextBtn nextBtn' type="Next" value="Next" />
+                </div>
+            </form>
+        </div>
+
+        <!-- third step  -->
+        <div class="stepOne form-step">
+            <h2 class='steptwoText'>Personal Information</h2>
+            <hr class='hrstyle' />
+            <form action="" class='allfrom'>
+                <label class='selectfullname'>Full Name</label>
+                <input class='slectTitlefullname' type="text" placeholder='John Doe' />
+                <label class='selectfullname'>Email</label>
+                <input class='slectTitlefullname' type="text" placeholder='John Doe' />
+                <label class='selectfullname'>Phone Number</label>
+                <input class='slectTitlefullname' type="text" placeholder='John Doe' />
+                <input class='btnStylepersonal btn-nextBtn nextBtn' value='Next' type="button" />
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- js file connection  -->
+    <script src="js/app.js"></script>
+    <!-- <script src="js/bank.js"></script> -->
+</body>
+
+</html>
